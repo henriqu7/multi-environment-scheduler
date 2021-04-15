@@ -1,0 +1,15 @@
+{
+  "name": "multi-environment-scheduler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "invoke-local": "sls invoke local -f commit-message-scheduler --logger"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.888.0",
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.6",
+    "env-var": "^7.0.0"
+  }
+}
